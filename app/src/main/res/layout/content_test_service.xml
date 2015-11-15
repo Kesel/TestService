@@ -33,5 +33,46 @@
             android:layout_height="wrap_content"
             android:indeterminate="true">
         </ProgressBar>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/et_get_one_day_steps"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btn_get_one_day_steps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_btn_get_one_day_steps"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/et_put_day"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/et_put_steps"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btn_put_one_day_steps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_btn_put_one_day_steps"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_result"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
     </LinearLayout>
     </RelativeLayout>

@@ -3,4 +3,6 @@
     <string name="action_settings">Settings</string>
     <string name="start">Start Service</string>
     <string name="stop">Stop Service</string>
+    <string name="text_btn_get_one_day_steps">GET</string>
+    <string name="text_btn_put_one_day_steps">PUT</string>
 </resources>
